@@ -1,7 +1,15 @@
 # bootstrap
 R code (with data of test) to test if mean and median of one value in one group is different than in another biggest group
+Developed on R version 4.4.0 (2024-04-24 ucrt- Copyright (C) 2024 The R Foundation for Statistical Computing Platform: x86_64-w64-mingw32/x64) 
+Open source software to use it: R (https://cran.r-project.org/bin/windows/base/)
 
-only the parameters between lines 9 and 19 to modify
+Memory (RAM): 4–8 GB
+Storage: 1–5 GB free disk space
+CPU: dual- or quad-core processor
+Processing time: typically under 1 hour per run for standard datasets.
+
+
+In code, only the parameters between lines 9 and 19 to modify
 
 on line 9 modify the name of your file in repository (name of example file in code)
 
