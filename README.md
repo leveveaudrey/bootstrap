@@ -1,6 +1,7 @@
 # bootstrap
-code to test if mean and median of one value in one group is different than in another biggest group
-R code  (with data of test) with only the parameters between lines 9 and 19 to modify
+R code (with data of test) to test if mean and median of one value in one group is different than in another biggest group
+
+only the parameters between lines 9 and 19 to modify
 
 on line 9 modify the name of your file in repository (name of example file in code)
 
