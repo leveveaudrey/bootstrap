@@ -15,8 +15,8 @@ Name_compared_group="PEG Endosperm" ## Name of group compared to control group
 size_group_compared=29 ## Size of group compared to control group
 Name_analysis="Test" ## Name of analysis used for output file
 nb_replicat = 1000 ## number of replicats for bootstrap
-treshold_min=0.05 ## value of distribution for significant low value
-treshold_max=0.95 ## value of distribution for significant high value
+treshold_min=0.025 ## value of distribution for significant low value
+treshold_max=0.975 ## value of distribution for significant high value
 
 
 ###### NOTHING TO CHANGE AFTER!!! #####
@@ -163,5 +163,6 @@ ggplot(data, aes(x=Cluster, y=as.numeric(Value))) +
   ylab(Name_value)+
   theme_classic()+
   theme(legend.position = "none",axis.title.x =element_text(colour="black") ,axis.title.y = element_text(size=25,colour = "black"),axis.text.x = element_text(size=15, colour = "black"),axis.text.y = element_text(size=15,colour="black"))
+
 
 dev.off()
